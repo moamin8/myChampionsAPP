@@ -1,0 +1,10 @@
+{"name":"myApp",
+"short_name":"myApp",
+
+"icons":[{"src":"favicon_io/favicon-16x16.png","sizes":"16x16",
+"type":"image/png"},
+
+{"src":"favicon_io/favicon-32x32.png","sizes":"32x32","type":"image/png"}],
+"theme_color":"#EEF0F4",
+"background_color":"#EEF0F4",
+"display":"standalone"}

@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* font-family: 'Josefin Sans', sans-serif; */
+}
+.app {
+  /* margin: 30px auto; */
+ 
+  width: 390px;
+min-height: 844px;
+  background: #1B1924;
+  box-sizing: border-box;
+  padding: 51px 37px 1px 37px ;
+  position: relative;
+}
+header {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+header > img {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  margin-bottom:17px ;
+}
+
+header > h1 {
+  color: #FFF;
+font-family: Josefin Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 19px;
+}
+
+
+header >.text-div>textarea,
+header >.text-div>input{
+  color: #8F8F8F;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 8px;
+background: #444059;
+border: none;
+margin-bottom: 9px;
+}
+
+
+header >.text-div>textarea {
+  box-sizing: content-box;
+  width: 282px;
+height: 93px;
+padding: 12px 19px 13px 16px;
+flex-shrink: 0;
+text-align: start;
+}
+
+header >.text-div>input {
+  box-sizing: border-box;
+  width: 152.852px;
+height: 40px;
+padding: 6px 8.26px 7px 7.23px;
+margin-left: 3px;
+
+}
+
+header >button {
+  width: 317px;
+  height: 61px;
+  border-radius: 8px;
+background: #28A9F1;
+border: none;
+  flex-shrink: 0;
+color: #04131C;
+text-align: center;
+font-family: Josefin Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 19px;
+}
+
+header >h2 {
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+main {
+  padding-top: 15px;
+  overflow:hidden;
+}
+main >ul {
+  list-style: none;
+    
+}
+
+main >ul >li{
+  box-sizing: border-box;
+  width: 317px;
+  color: #1B1924;
+  background: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 13px 14px 11px 11px;
+margin-bottom: 13px;
+
+
+}
+main >ul >li h3 {
+  text-align: start;
+  
+height: 21px;
+flex-shrink: 0;
+  
+  font-weight: 700; 
+  
+}
+main >ul >li >h3 {
+  margin-bottom: 6px;
+}
+main >ul >li>p {
+  text-align: start;
+  margin-bottom: 10.8px;
+  
+
+}
+main >ul >li>div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+main >ul >li .like-div {
+  display: flex;
+  gap: 5px;
+  color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+cursor: pointer;
+user-select: none;
+}
